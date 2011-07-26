@@ -39,6 +39,7 @@ public class Server1 {
 					pw.flush();
 				} else {
 					ServerThread thread = new ServerThread(newSocket);
+					System.out.println("ÏûÏ¢Í·head:" + head);
 					thread.start();
 				}
 
